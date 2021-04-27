@@ -1,0 +1,7 @@
+﻿  Building Custom Rule D:/Projects/Graphics/menger/CMakeLists.txt
+  debuggl.cc
+  jpegio.cc
+D:\Projects\Graphics\menger\lib\utgraphicsutil\jpegio.cc(20,12): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+D:\Projects\Graphics\menger\lib\utgraphicsutil\jpegio.cc(51,15): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  Generating Code...
+  utgraphicsutil.vcxproj -> D:\Projects\Graphics\menger\build\Debug\utgraphicsutil.lib

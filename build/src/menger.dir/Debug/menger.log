@@ -1,0 +1,8 @@
+﻿  Building Custom Rule D:/Projects/Graphics/menger/src/CMakeLists.txt
+  camera.cc
+  main.cc
+D:\Projects\Graphics\menger\src\main.cc(367,3): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+  menger.cc
+  Generating Code...
+LINK : warning LNK4044: unrecognized option '/openmp'; ignored
+  menger.vcxproj -> D:\Projects\Graphics\menger\build\bin\Debug\menger.exe

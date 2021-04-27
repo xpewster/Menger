@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5EE44C10-5ED7-3A24-93D1-FCF3DC2BC1A7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.18362.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;\opt\local\include;D:\Projects\Graphics\menger\lib;C:\dev\vcpkg\installed\x64-windows\include;D:\Projects\Graphics\menger\lib\utgraphicsutil;D:\Projects\Graphics\menger\third-party\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;\opt\local\include;D:\Projects\Graphics\menger\lib;C:\dev\vcpkg\installed\x64-windows\include;D:\Projects\Graphics\menger\lib\utgraphicsutil;D:\Projects\Graphics\menger\third-party\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;\opt\local\include;D:\Projects\Graphics\menger\lib;C:\dev\vcpkg\installed\x64-windows\include;D:\Projects\Graphics\menger\lib\utgraphicsutil;D:\Projects\Graphics\menger\third-party\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>\usr\local\include;\opt\local\include;D:\Projects\Graphics\menger\lib;C:\dev\vcpkg\installed\x64-windows\include;D:\Projects\Graphics\menger\lib\utgraphicsutil;D:\Projects\Graphics\menger\third-party\glm;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Projects\Graphics\menger\CMakeLists.txt">
+      <StdOutEncoding>UTF-8</StdOutEncoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Projects/Graphics/menger/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Graphics/menger -BD:/Projects/Graphics/menger/build --check-stamp-file D:/Projects/Graphics/menger/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\Projects\Graphics\menger\cmake\eigen3.cmake;D:\Projects\Graphics\menger\cmake\env.cmake;D:\Projects\Graphics\menger\cmake\gcc.cmake;D:\Projects\Graphics\menger\cmake\gl3.cmake;D:\Projects\Graphics\menger\cmake\glm.cmake;D:\Projects\Graphics\menger\cmake\libutgraphicsutil.cmake;D:\Projects\Graphics\menger\cmake\msvc.cmake;D:\Projects\Graphics\menger\cmake\openmp.cmake;D:\Projects\Graphics\menger\cmake\warning.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Projects\Graphics\menger\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Projects/Graphics/menger/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Graphics/menger -BD:/Projects/Graphics/menger/build --check-stamp-file D:/Projects/Graphics/menger/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\Projects\Graphics\menger\cmake\eigen3.cmake;D:\Projects\Graphics\menger\cmake\env.cmake;D:\Projects\Graphics\menger\cmake\gcc.cmake;D:\Projects\Graphics\menger\cmake\gl3.cmake;D:\Projects\Graphics\menger\cmake\glm.cmake;D:\Projects\Graphics\menger\cmake\libutgraphicsutil.cmake;D:\Projects\Graphics\menger\cmake\msvc.cmake;D:\Projects\Graphics\menger\cmake\openmp.cmake;D:\Projects\Graphics\menger\cmake\warning.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Projects\Graphics\menger\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Projects/Graphics/menger/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Graphics/menger -BD:/Projects/Graphics/menger/build --check-stamp-file D:/Projects/Graphics/menger/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\Projects\Graphics\menger\cmake\eigen3.cmake;D:\Projects\Graphics\menger\cmake\env.cmake;D:\Projects\Graphics\menger\cmake\gcc.cmake;D:\Projects\Graphics\menger\cmake\gl3.cmake;D:\Projects\Graphics\menger\cmake\glm.cmake;D:\Projects\Graphics\menger\cmake\libutgraphicsutil.cmake;D:\Projects\Graphics\menger\cmake\msvc.cmake;D:\Projects\Graphics\menger\cmake\openmp.cmake;D:\Projects\Graphics\menger\cmake\warning.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Projects\Graphics\menger\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Projects/Graphics/menger/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/Projects/Graphics/menger -BD:/Projects/Graphics/menger/build --check-stamp-file D:/Projects/Graphics/menger/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeParseImplicitLinkInfo.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindJPEG.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenMP.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\Platform\WindowsPaths.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\SelectLibraryConfigurations.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\CopyImportedTargetProperties.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\glew-targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\glew\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Config.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3ConfigVersion.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-debug.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets-release.cmake;C:\dev\vcpkg\installed\x64-windows\share\glfw3\glfw3Targets.cmake;C:\dev\vcpkg\installed\x64-windows\share\jpeg\vcpkg-cmake-wrapper.cmake;C:\dev\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeCXXCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeRCCompiler.cmake;D:\Projects\Graphics\menger\build\CMakeFiles\3.19.4\CMakeSystem.cmake;D:\Projects\Graphics\menger\cmake\eigen3.cmake;D:\Projects\Graphics\menger\cmake\env.cmake;D:\Projects\Graphics\menger\cmake\gcc.cmake;D:\Projects\Graphics\menger\cmake\gl3.cmake;D:\Projects\Graphics\menger\cmake\glm.cmake;D:\Projects\Graphics\menger\cmake\libutgraphicsutil.cmake;D:\Projects\Graphics\menger\cmake\msvc.cmake;D:\Projects\Graphics\menger\cmake\openmp.cmake;D:\Projects\Graphics\menger\cmake\warning.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Projects\Graphics\menger\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Projects\Graphics\menger\build\ZERO_CHECK.vcxproj">
+      <Project>{92BE1493-4164-32F9-BA8B-B600C45469B5}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Graphics\menger\build\src\menger.vcxproj">
+      <Project>{C2C241B8-3479-33E9-9FFC-AAB87EE99F6B}</Project>
+      <Name>menger</Name>
+    </ProjectReference>
+    <ProjectReference Include="D:\Projects\Graphics\menger\build\utgraphicsutil.vcxproj">
+      <Project>{18D4F7AF-8D7C-3131-B574-905BDC78B0AD}</Project>
+      <Name>utgraphicsutil</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

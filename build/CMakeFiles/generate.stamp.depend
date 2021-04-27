@@ -1,0 +1,53 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeParseImplicitLinkInfo.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindJPEG.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenMP.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/Platform/WindowsPaths.cmake
+C:/Program Files/CMake/share/cmake-3.19/Modules/SelectLibraryConfigurations.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/CopyImportedTargetProperties.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/glew-config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/glew-targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/glew-targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/glew-targets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glew/vcpkg-cmake-wrapper.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Config.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glfw3/glfw3ConfigVersion.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-debug.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets-release.cmake
+C:/dev/vcpkg/installed/x64-windows/share/glfw3/glfw3Targets.cmake
+C:/dev/vcpkg/installed/x64-windows/share/jpeg/vcpkg-cmake-wrapper.cmake
+C:/dev/vcpkg/scripts/buildsystems/vcpkg.cmake
+D:/Projects/Graphics/menger/CMakeLists.txt
+D:/Projects/Graphics/menger/build/CMakeFiles/3.19.4/CMakeCCompiler.cmake
+D:/Projects/Graphics/menger/build/CMakeFiles/3.19.4/CMakeCXXCompiler.cmake
+D:/Projects/Graphics/menger/build/CMakeFiles/3.19.4/CMakeRCCompiler.cmake
+D:/Projects/Graphics/menger/build/CMakeFiles/3.19.4/CMakeSystem.cmake
+D:/Projects/Graphics/menger/cmake/eigen3.cmake
+D:/Projects/Graphics/menger/cmake/env.cmake
+D:/Projects/Graphics/menger/cmake/gcc.cmake
+D:/Projects/Graphics/menger/cmake/gl3.cmake
+D:/Projects/Graphics/menger/cmake/glm.cmake
+D:/Projects/Graphics/menger/cmake/libutgraphicsutil.cmake
+D:/Projects/Graphics/menger/cmake/msvc.cmake
+D:/Projects/Graphics/menger/cmake/openmp.cmake
+D:/Projects/Graphics/menger/cmake/warning.cmake
